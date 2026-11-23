@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
         <main className="w-full flex-1">{children}</main>
         <Footer />
         <FloatingContact />
-        <BottomNav />
+        // <BottomNav />
       </body>
     </html>
   );
