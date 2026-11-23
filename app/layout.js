@@ -4,7 +4,6 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FloatingContact from "@/components/FloatingContact";
 import NavTracker from "@/components/NavTracker";
-import BottomNav from "@/components/BottomNav";
 
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
@@ -29,7 +28,6 @@ export default function RootLayout({ children }) {
         <main className="w-full flex-1">{children}</main>
         <Footer />
         <FloatingContact />
-        // <BottomNav />
       </body>
     </html>
   );
